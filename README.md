@@ -146,9 +146,10 @@ We should see 4 running containers:
 ![Item GET id Screenshot](./api-testing-evidence/payments-getid.png)
 
 
-✍️ Student Information <br>
-Name: Nipuni Bandara <br>
-IT Number: IT22251664 <br>
-Specialization: Software Engineering <br>
-Module: Current Trends in Software Engineering (SE4010) <br>
-Institute: SLIIT - Faculty of Computing <br>
+👩‍💻 Student Information <br>
+
+👩 Name: Nipuni Bandara <br>
+🆔 IT Number: IT22251664 <br>
+🎓 Specialization: Software Engineering <br>
+📘 Module: Current Trends in Software Engineering (SE4010) <br>
+🏫 Institute: SLIIT – Faculty of Computing 
