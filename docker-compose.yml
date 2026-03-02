@@ -1,0 +1,46 @@
+services:
+  item-service:
+    build: ./item-service/item-service
+    ports:
+      - "8081:8081"
+    environment:
+      - SPRING_APPLICATION_NAME=item-service
+    networks:
+      - microservices-network
+
+  order-service:
+    build: ./order-service/order-service
+    ports:
+      - "8082:8082"
+    environment:
+      - SPRING_APPLICATION_NAME=order-service
+    depends_on:
+      - item-service
+    networks:
+      - microservices-network
+
+  payment-service:
+    build: ./payment-service/payment-service
+    ports:
+      - "8083:8083"
+    environment:
+      - SPRING_APPLICATION_NAME=payment-service
+    networks:
+      - microservices-network
+
+  api-gateway:
+    build: ./api-gateway/api-gateway
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_APPLICATION_NAME=api-gateway
+    depends_on:
+      - item-service
+      - order-service
+      - payment-service
+    networks:
+      - microservices-network
+
+networks:
+  microservices-network:
+    driver: bridge
