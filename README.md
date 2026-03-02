@@ -107,43 +107,43 @@ We should see 4 running containers:
     📦 Item Service
         🔹 Get All Items
             GET http://localhost:8080/items
-![Item GET Screenshot](./postman-screenshots/items-getall.png)
+![Item GET Screenshot](./api-testing-evidence/items-getall.png)
 
         🔹 Add New Item
             POST http://localhost:8080/items
-![Item POST Screenshot](./postman-screenshots/items-post.png)
+![Item POST Screenshot](./api-testing-evidence/items-post.png)
 
         🔹 Get Item By ID
             GET http://localhost:8080/items/3
-![Item GET id Screenshot](./postman-screenshots/items-getid.png)
+![Item GET id Screenshot](./api-testing-evidence/items-getid.png)
 
     
     🧾 Order Service
         🔹 Get All Orders
             GET http://localhost:8080/orders
-![Item GET id Screenshot](./postman-screenshots/orders-getall.png)
+![Item GET id Screenshot](./api-testing-evidence/orders-getall.png)
 
         🔹 Place Order
             POST http://localhost:8080/orders
-![Item GET id Screenshot](./postman-screenshots/orders-place.png)
+![Item GET id Screenshot](./api-testing-evidence/orders-place.png)
 
         🔹 Get Order By ID
             GET http://localhost:8080/orders/1
-![Item GET id Screenshot](./postman-screenshots/orders-getid.png)
+![Item GET id Screenshot](./api-testing-evidence/orders-getid.png)
 
 
     💳 Payment Service
-        🔹 Get All Payments
+        🔹 Get All Paymentsapi-testing-evidenc
             GET http://localhost:8080/payments
-![Item GET id Screenshot](./postman-screenshots/payments-getall.png)
+![Item GET id Screenshot](./api-testing-evidence/payments-getall.png)
 
         🔹 Process Payment
             POST http://localhost:8080/payments/process
-![Item GET id Screenshot](./postman-screenshots/payments-process.png)
+![Item GET id Screenshot](./api-testing-evidence/payments-process.png)
 
         🔹 Get Payment By ID
             GET http://localhost:8080/payments/1
-![Item GET id Screenshot](./postman-screenshots/payments-getid.png)
+![Item GET id Screenshot](./api-testing-evidence/payments-getid.png)
 
 
 ✍️ Student Information <br>
