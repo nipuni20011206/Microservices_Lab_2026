@@ -108,4 +108,4 @@ We should see 4 running containers:
         🔹 Get All Items
             GET http://localhost:8080/items
 
-    ![Item GET Screenshot](./postman-screenshots/item-getall.png)
+    ![Item GET Screenshot](./postman-screenshots/items-getall.png)
