@@ -101,7 +101,7 @@ We should see 4 running containers:
     api-gateway
 
 
-🧪 API Testing (Postman)
+🧪 API Testing (Postman) <br>
     ⚠️ All requests must go through API Gateway (Port 8080)
 
     📦 Item Service
@@ -147,8 +147,8 @@ We should see 4 running containers:
 
 
 ✍️ Student Information
-Name: Nipuni Bandara
-IT Number: IT22251664
-Specialization: Software Engineering
-Module: Current Trends in Software Engineering (SE4010)
-Institute: SLIIT - Faculty of Computing
+Name: Nipuni Bandara <br>
+IT Number: IT22251664 <br>
+Specialization: Software Engineering <br>
+Module: Current Trends in Software Engineering (SE4010) <br>
+Institute: SLIIT - Faculty of Computing <br>
