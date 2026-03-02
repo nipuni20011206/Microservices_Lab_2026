@@ -101,8 +101,8 @@ We should see 4 running containers:
     api-gateway
 
 
-🧪 API Testing (Postman) <br>
-    ⚠️ All requests must go through API Gateway (Port 8080)
+🧪 API Testing (Postman) <br> </t>
+⚠️ All requests must go through API Gateway (Port 8080)
 
     📦 Item Service
         🔹 Get All Items
@@ -146,7 +146,7 @@ We should see 4 running containers:
 ![Item GET id Screenshot](./postman-screenshots/payments-getid.png)
 
 
-✍️ Student Information
+✍️ Student Information <br>
 Name: Nipuni Bandara <br>
 IT Number: IT22251664 <br>
 Specialization: Software Engineering <br>
