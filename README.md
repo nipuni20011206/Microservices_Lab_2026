@@ -107,5 +107,48 @@ We should see 4 running containers:
     📦 Item Service
         🔹 Get All Items
             GET http://localhost:8080/items
-
 ![Item GET Screenshot](./postman-screenshots/items-getall.png)
+
+        🔹 Add New Item
+            POST http://localhost:8080/items
+![Item POST Screenshot](./postman-screenshots/items-post.png)
+
+        🔹 Get Item By ID
+            GET http://localhost:8080/items/3
+![Item GET id Screenshot](./postman-screenshots/items-getid.png)
+
+    
+    🧾 Order Service
+        🔹 Get All Orders
+            GET http://localhost:8080/orders
+![Item GET id Screenshot](./postman-screenshots/orders-getall.png)
+
+        🔹 Place Order
+            POST http://localhost:8080/orders
+![Item GET id Screenshot](./postman-screenshots/orders-place.png)
+
+        🔹 Get Order By ID
+            GET http://localhost:8080/orders/1
+![Item GET id Screenshot](./postman-screenshots/orders-getid.png)
+
+
+    💳 Payment Service
+        🔹 Get All Payments
+            GET http://localhost:8080/payments
+![Item GET id Screenshot](./postman-screenshots/payments-getall.png)
+
+        🔹 Process Payment
+            POST http://localhost:8080/payments/process
+![Item GET id Screenshot](./postman-screenshots/payments-process.png)
+
+        🔹 Get Payment By ID
+            GET http://localhost:8080/payments/1
+![Item GET id Screenshot](./postman-screenshots/payments-getid.png)
+
+
+✍️ Student Information
+Name: Nipuni Bandara
+IT Number: IT22251664
+Specialization: Software Engineering
+Module: Current Trends in Software Engineering (SE4010)
+Institute: SLIIT - Faculty of Computing
