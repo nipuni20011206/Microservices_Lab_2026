@@ -146,27 +146,9 @@ We should see 4 running containers:
 ![Item GET id Screenshot](./api-testing-evidence/payments-getid.png)
 
 
-🐳 Docker Configuration
-    Each service uses the following Dockerfile:
-
-        FROM eclipse-temurin:17-jdk-alpine
-        WORKDIR /app
-        COPY target/*.jar app.jar
-        ENTRYPOINT ["java","-jar","app.jar"]
-
-    All services are orchestrated using:
-        docker-compose.yml
-
-🧹 Stopping the Application
-    docker-compose down
-
 ✍️ Student Information <br>
-    👩 Name: Nipuni Bandara <br>
-
-    🆔 IT Number: IT22251664 <br>
-
-    🎓 Specialization: Software Engineering <br>
-
-    📘 Module: Current Trends in Software Engineering (SE4010) <br>
-
-    🏫 Institute: SLIIT – Faculty of Computing <br>
+Name: Nipuni Bandara <br>
+IT Number: IT22251664 <br>
+Specialization: Software Engineering <br>
+Module: Current Trends in Software Engineering (SE4010) <br>
+Institute: SLIIT - Faculty of Computing <br>
